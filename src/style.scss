@@ -1,0 +1,34 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 100ms ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    background-color: #f6f6f6;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    color: #5e5e5e;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text > i{
+    padding-right: 1.5rem;
+}
